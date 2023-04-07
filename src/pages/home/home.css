@@ -1,0 +1,264 @@
+.navbarConatine {
+  position: sticky;
+  top: 0px;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  background-color: #004a7f;
+  /* background-color: #005281ee; */
+}
+
+.heroBtn {
+  width: 200px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.heroLeft {
+  width: 50%;
+}
+
+.heroRight {
+  width: 50%;
+}
+
+.heroTitle {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.featurenOnSection {
+}
+
+.featured_on_txt {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #5b5e6f;
+  margin-bottom: 60px;
+}
+
+/* Scroll down */
+
+.scrool__down {
+  width: 100%;
+}
+
+.home__scroll-name {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mouse {
+  border: 2px solid #454360;
+  display: block;
+  height: 65px;
+  width: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  position: relative;
+}
+
+@keyframes ani-mouse {
+  0% {
+    top: 29%;
+  }
+  15% {
+    top: 50%;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: 29%;
+  }
+}
+.wheel {
+  background-color: hsl(244, 24%, 26%);
+  border-radius: 100%;
+  width: 0.35rem;
+  height: 0.35rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 45%;
+  transform: translateX(-50);
+  animation: ani-mouse 2s linear infinite;
+}
+
+.whyChoseSection {
+  margin-top: 100px;
+}
+
+.wcut {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #5b5e6f;
+  margin-bottom: 20px;
+}
+
+.wcud {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 60px;
+  text-align: center;
+  color: #00364f;
+}
+
+.wcupt {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  /* or 140% */
+
+  /* Dark/dark_1 */
+
+  color: #00364f;
+}
+
+.wcupp {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #46626f;
+}
+
+.wcups {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #f3ad55;
+}
+
+.wcups:hover {
+  cursor: pointer;
+}
+
+/*  */
+
+.blinkButton {
+  background-color: #004a7f;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 5px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #edb407;
+    -webkit-box-shadow: 0 0 3px #edb407;
+  }
+  50% {
+    background-color: #edb407;
+    -webkit-box-shadow: 0 0 40px #edb407;
+  }
+  100% {
+    background-color: #edb407;
+    -webkit-box-shadow: 0 0 3px #edb407;
+  }
+}
+
+@-moz-keyframes glowing {
+  0% {
+    background-color: #edb407;
+    -moz-box-shadow: 0 0 3px #edb407;
+  }
+  50% {
+    background-color: #edb407;
+    -moz-box-shadow: 0 0 40px #edb407;
+  }
+  100% {
+    background-color: #edb407;
+    -moz-box-shadow: 0 0 3px #edb407;
+  }
+}
+
+@-o-keyframes glowing {
+  0% {
+    background-color: #edb407;
+    box-shadow: 0 0 3px #edb407;
+  }
+  50% {
+    background-color: #edb407;
+    box-shadow: 0 0 40px #edb407;
+  }
+  100% {
+    background-color: #edb407;
+    box-shadow: 0 0 3px #edb407;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #edb407;
+    box-shadow: 0 0 3px #edb407;
+  }
+  50% {
+    background-color: #edb407;
+    box-shadow: 0 0 40px #edb407;
+  }
+  100% {
+    background-color: #edb407;
+    box-shadow: 0 0 3px #edb407;
+  }
+}
+
+/*  */
+
+@media screen and (max-width: 992px) {
+  .heroTitle {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .heroLeft {
+    width: 80%;
+  }
+
+  .heroRight {
+    width: 80%;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+}
